@@ -1,0 +1,97 @@
+// General code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #0A122A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    max-width: 1140px;
+    margin: auto
+}
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+// variable
+$lato: 'Lato',
+sans-serif;
+
+// form style
+form {
+    background-color: #ffffff;
+    width: max-content;
+    height: 300px;
+    padding: 20px 10px;
+    border-radius: 8px;
+    h5 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $lato;
+        font-weight: 600;
+        color: #000000;
+    }
+    span {
+        position: relative;
+        left: 10px;
+        color: #0A122A;
+        font: {
+            size: 1rem;
+            family: $lato;
+            weight: 400;
+        }
+        margin-left: 8px;
+    }
+    h4 {
+        font: {
+            size: 1rem;
+            weight: 600;
+        }
+        margin-left: 10px;
+        color: #171771;
+        display: inline-block;
+        text-transform: capitalize;
+        
+    }
+    .inputS {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 8px;
+        padding: 8px 15px;
+        cursor: pointer;
+        button {
+            border: none;
+            background: #171717;
+            border-radius: 0 8px 8px 0;
+            padding: 10px;
+            cursor: pointer;
+            .search {
+                color: #fff;
+            }
+        }
+        #searchCountry {
+            margin-right: 2px;
+            padding: 5px 10px;
+            background: #171717;
+            border: none;
+            border-radius: 8px 0 0 8px;
+            outline: none;
+            color: #fff;
+        }
+
+    }
+    .wind {
+        text-transform: capitalize; 
+    }
+}
